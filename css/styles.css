@@ -1,5 +1,12 @@
 :root {
-    /* brand-color Iris */
-    --iris-color: #4D5AE5;
+    /* Iris - logo, button color*/
+    --logo-color: #4D5AE5;
+    --btn-color: #4D5AE5;
+    /* NAVY BLUE - hero background-color (bg), headings*/
+    --hero-color: #2E2F42;
+    --heading-color: #2E2F42;
+    /* SLATE - Fonts color */
+    --address-color: #434455;
+    --main-fonts: #434455;
   }
   
