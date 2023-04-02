@@ -1,12 +1,19 @@
 :root {
-    /* Iris - logo, button color*/
+    /* IRIS - logo, button color*/
     --logo-color: #4D5AE5;
     --btn-color: #4D5AE5;
-    /* NAVY BLUE - hero background-color (bg), headings*/
+    /* NAVY BLUE - hero background (bg), menu & headings fonts*/
     --hero-color: #2E2F42;
     --heading-color: #2E2F42;
-    /* SLATE - Fonts color */
+    /* SLATE - dark fonts contacts & main text */
     --address-color: #434455;
     --main-fonts: #434455;
+     /* white & CLOUD - light fonts, Section-3 bg */   
+    --white-color: #ffffff;
+    --light-font: #F4F4FD;
+    /* CORNFLOWER - Section-2 bg, Portfolio bg*/
+    --portfolio-bgc: #e7e9fc;
+    /* OCEAN - button */
+    --hover-btn: #404BBF;
   }
   
