@@ -19,7 +19,7 @@
   
   body {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-fonts);
@@ -88,8 +88,7 @@ address {
     color: var(--address-color);
 }
 
-/* Main */
-
+/* ==========Main ========== */
 /* Hero section style*/
 .hero-bloc {
     font-weight: 700;
@@ -141,4 +140,12 @@ address {
     color: var(--white-color);
   }
   
-
+/* ==========Section========== */
+  /* Section 1 */
+  .header-three {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-color);
+    letter-spacing: 0.02em;
+  }
