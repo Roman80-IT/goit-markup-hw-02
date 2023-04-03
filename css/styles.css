@@ -17,3 +17,6 @@
     --hover-btn: #404BBF;
   }
   
+  .link {
+    text-decoration:none;
+}
