@@ -91,51 +91,54 @@ address {
 /* Main */
 
 /* Hero section style*/
-.hero-bloc .primary-heading {
+.hero-bloc {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    background-color: var(--hero-color);
     color: var(--white-color);
     text-align: center;
     letter-spacing: 0.02em;
-    width: 496px;
-    }
-
-section {
-    background-color: var(--hero-color);
-    color: var(--white-color);
+    width: 1440px;
+    height: 600px;
 }
 
-.title {
+/* .title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
-}
+} */
 
-.button-link {
-    background-color: var(--color-iris);
+/* ==========BUTTON STYLE========== */
+/* button index html */
+.btn {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--btn-color);
+    min-width: 169px;
+    height: 56px;
+    padding-right: 10px;
+    padding-left: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: "Roboto", sans-serif;
+    align-items: center;
+    letter-spacing: 0.04em;
+    display: inline-block;
+    margin-top: 56px;
+    border: none;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background-color: var(--hover-btn);
+  }
+
+  .btn-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
     color: var(--white-color);
-    cursor: pointer;
- } 
+  }
+  
 
- .button-p {
-    background-color: var(--light-font);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--color-iris);
-    cursor: pointer;
- }
