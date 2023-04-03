@@ -37,6 +37,10 @@
     list-style: none;
 }
 
+.hide-titel {
+  display: none;
+}
+
 /* header */
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -60,7 +64,6 @@
   color: var(--heading-color);
   }
   
-
  .menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -78,6 +81,7 @@ address {
 }
 
 .contact {   
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -85,9 +89,21 @@ address {
 }
 
 /* Main */
+
+/* Hero section style*/
+.hero-bloc .primary-heading {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--white-color);
+    text-align: center;
+    letter-spacing: 0.02em;
+    width: 496px;
+    }
+
 section {
-    background-color: var(--color-navi-blue-modal);
-    color: var(-color-white);
+    background-color: var(--hero-color);
+    color: var(--white-color);
 }
 
 .title {
