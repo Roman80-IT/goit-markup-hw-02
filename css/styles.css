@@ -26,17 +26,17 @@ body {
 }
 
 .header {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-color: var(--heading-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--heading-color);
 }
 
 .main-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
- }
+}
 
 /* ========== RESET ==========  */
 /* Видалення підкреслення link-ів */
@@ -144,8 +144,8 @@ color: var(--heading-color);
   color: var(--white-color);
 }
 
-/* ========== SECTION ========== */
-/* Section 1 (h3 = header) */
+/* ========== SECTIONs ========== */
+/* Section 1 (h3 = header in "body") */
 
 /* Section 2,3 (h2) */
 .header-two {
@@ -157,7 +157,25 @@ color: var(--heading-color);
 
 /* Section 3 */
 .sec-three {
-    /* Кожне Слово З Великої Літери */
+  /* Кожне Слово З Великої Літери */
   text-transform: capitalize;
   background-color: var(--light-font);
+}
+
+/* ========== FOOTER ========== */
+.footer-section {
+  background: var(--heading-color);
+  width: 1440px;
+  height: 312px;
+}
+
+.logo-footer {
+  color: var(--light-font);
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--light-font);
 }
