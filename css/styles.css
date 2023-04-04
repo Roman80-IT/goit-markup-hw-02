@@ -19,16 +19,16 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  /* font-style: normal; - непотрібно (дефолтне значення)*/
   color: var(--main-fonts);
-  /* background-color: var(--white-color); */
+  background-color: var(--white-color);
 }
 
-.main-text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.main-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* ==========Reset==========  */
@@ -77,9 +77,9 @@ body {
   color: var(--hover-btn);
 }
 
-address {
+/* address {
   font-style: normal;
-}
+} */
 
 .contact {
   font-weight: 400;
@@ -103,7 +103,8 @@ address {
   height: 600px;
 }
 
-/* .title {
+/* Параметри заголовку вже описані в блоці
+.title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -147,6 +148,15 @@ address {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--primary-color);
+  color: var(--heading-color);
+  letter-spacing: 0.02em;
+}
+
+/* Section 2 */
+.header-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--heading-color);
   letter-spacing: 0.02em;
 }
