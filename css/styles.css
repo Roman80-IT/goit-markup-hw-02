@@ -25,10 +25,12 @@ body {
   background-color: var(--white-color);
 }
 
+/* для заголовків перезадаємо параметри */
 .header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--heading-color);
 }
 
@@ -108,12 +110,12 @@ address {
 }
 
 .title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-color);
 }
 
 /* ==========BUTTON STYLE========== */
@@ -129,10 +131,7 @@ address {
   border-radius: 4px;
   align-items: center;
   letter-spacing: 0.04em;
-  cursor: pointer
-  display: inline-block;
-  margin-top: 56px;
-  border: none;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -155,6 +154,9 @@ address {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--heading-color);
 }
 
@@ -164,6 +166,10 @@ address {
   text-transform: capitalize;
   background-color: var(--light-font);
 }
+
+.team-items{
+    background-color: #FFFFFF;
+}  
 
 /* ========== FOOTER ========== */
 .footer-section {
