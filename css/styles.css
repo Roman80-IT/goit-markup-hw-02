@@ -21,17 +21,24 @@ body {
   font-family: 'Roboto', sans-serif;
   /* font-style: normal; - непотрібно (дефолтне значення)*/
   color: var(--main-fonts);
+  letter-spacing: 0.02em;
   background-color: var(--white-color);
+}
+
+.header {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--heading-color);
 }
 
 .main-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+ }
 
-/* ==========Reset==========  */
+/* ========== RESET ==========  */
 /* Видалення підкреслення link-ів */
 .link {
   text-decoration: none;
@@ -47,10 +54,9 @@ body {
   display: none;
 }
 
-/* header */
+/* ========== HEADER ========== */
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -68,7 +74,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--heading-color);
 }
 
@@ -85,11 +90,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--address-color);
 }
 
-/* ==========Main ========== */
+/* ========== MAIN ========== */
 /* Hero section style*/
 .hero-bloc {
   font-weight: 700;
@@ -98,7 +102,6 @@ body {
   background-color: var(--hero-color);
   color: var(--white-color);
   text-align: center;
-  letter-spacing: 0.02em;
   width: 1440px;
   height: 600px;
 }
@@ -108,7 +111,6 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
     color: var(--white-color);
 } */
 
@@ -142,21 +144,20 @@ body {
   color: var(--white-color);
 }
 
-/* ==========Section========== */
-/* Section 1 */
-.header-three {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--heading-color);
-  letter-spacing: 0.02em;
-}
+/* ========== SECTION ========== */
+/* Section 1 (h3 = header) */
 
-/* Section 2 */
+/* Section 2,3 (h2) */
 .header-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--heading-color);
-  letter-spacing: 0.02em;
+}
+
+/* Section 3 */
+.sec-three {
+    /* Кожне Слово З Великої Літери */
+  text-transform: capitalize;
+  background-color: var(--light-font);
 }
