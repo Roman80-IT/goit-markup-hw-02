@@ -82,9 +82,15 @@ body {
   color: var(--hover-btn);
 }
 
-/* address {
+.link:hover,
+.link:focus {
+  color: var(--hover-btn);
+}
+
+/* для прибирання курсиву */
+address {
   font-style: normal;
-} */
+}
 
 .contact {
   font-weight: 400;
@@ -96,23 +102,19 @@ body {
 /* ========== MAIN ========== */
 /* Hero section style*/
 .hero-bloc {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
   background-color: var(--hero-color);
-  color: var(--white-color);
-  text-align: center;
   width: 1440px;
   height: 600px;
 }
 
-/* Параметри заголовку вже описані в блоці
 .title {
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
     color: var(--white-color);
-} */
+}
 
 /* ==========BUTTON STYLE========== */
 /* button index html */
@@ -127,6 +129,7 @@ body {
   border-radius: 4px;
   align-items: center;
   letter-spacing: 0.04em;
+  cursor: pointer
   display: inline-block;
   margin-top: 56px;
   border: none;
