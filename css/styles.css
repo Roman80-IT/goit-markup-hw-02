@@ -19,13 +19,16 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--main-fonts);
-  background-color: var(--white-color);
+  /* background-color: var(--white-color); */
+}
+
+.main-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* ==========Reset==========  */
@@ -39,6 +42,7 @@ body {
   list-style: none;
 }
 
+/* Прихований заголовок */
 .hide-titel {
   display: none;
 }
