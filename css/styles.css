@@ -201,6 +201,28 @@ address {
   padding-right: 24px;
   padding-left: 24px;
 }
+
+
+.filter-button{
+    font-family:'Roboto',sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 12px 24px;
+    width: 126px;
+    height: 48px;
+    color: var(--iris) ;
+    background-color: var(--cloud);
+    cursor: pointer;
+   
+      }
+
+
 .text-btn-portf {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
