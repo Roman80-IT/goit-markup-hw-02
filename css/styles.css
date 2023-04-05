@@ -75,6 +75,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--heading-color);
 }
 
@@ -97,7 +98,7 @@ address {
   /* font-weight: 400;   *** непотрібно - йде за замовчуванням*/
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: var(--address-color);
 }
 
@@ -193,7 +194,6 @@ address {
   font-size: 16px;
   line-height: 1.5;
   color: var(--btn-color);
-  height: 48px;
   background: var(--light-font);
   border: 1px solid var(--portfolio-bgc);
   border-radius: 4px;
