@@ -117,7 +117,7 @@ address {
 }
 
 /* ==========BUTTON STYLE========== */
-/* button index html */
+/* button in index.html */
 .btn {
   font-family: 'Roboto', sans-serif;
   background-color: var(--btn-color);
@@ -144,7 +144,7 @@ address {
 }
 
 /* ========== SECTIONs ========== */
-/* Section 1 (h3 = header in "body") */
+/* Section 1 (h3 = header під "body") */
 
 /* Section 2,3 (h2) */
 .header-two {
@@ -212,11 +212,11 @@ address {
   border: 1px solid var(--hover-btn);
 }
 
-/* style block name  */
+/* style block name  === .header
 .block-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--heading-color);
   letter-spacing: 0.02em;
-}
+  color: var(--heading-color);
+} */
