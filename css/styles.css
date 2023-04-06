@@ -57,6 +57,12 @@ body {
   display: none;
 }
 
+/* для прибирання курсиву */
+address {
+  font-style: normal;
+  text-decoration: none;
+}
+
 /* ========== HEADER ========== */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -80,23 +86,15 @@ body {
   color: var(--heading-color);
 }
 
-.logo:hover,
-.logo:focus {
+.menu-link:hover,
+.menu-link:focus,
+.contact-hover:hover,
+.contact-hover:focus {
   color: var(--hover-btn);
-}
-
-.link:hover,
-.link:focus {
-  color: var(--hover-btn);
-}
-
-/* для прибирання курсиву */
-address {
-  font-style: normal;
 }
 
 .contact {
-  /* font-weight: 400;   *** непотрібно - йде за замовчуванням*/
+    /* font-weight: 400;   *** непотрібно - йде за замовчуванням*/
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -214,11 +212,3 @@ address {
   border: 1px solid var(--hover-btn);
 }
 
-/* style block name  === .header
-.block-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--heading-color);
-} */
