@@ -93,6 +93,14 @@ address {
   color: var(--hover-btn);
 }
 
+/* Якщо потрібно виділити фон при натисканні на лого
+.logo.link:hover,
+.logo.link:focus {
+  background-color: var(--light-font);
+} 
+можна і без лінк
+*/
+
 .contact {
     /* font-weight: 400;   *** непотрібно - йде за замовчуванням*/
   font-size: 16px;
