@@ -57,8 +57,9 @@ body {
   display: none;
 }
 
-/* для прибирання курсиву */
-address {
+/* для прибирання курсиву та підкреслення */
+
+.address-link {
   font-style: normal;
   text-decoration: none;
 }
@@ -88,8 +89,8 @@ address {
 
 .menu-link:hover,
 .menu-link:focus,
-.contact-hover:hover,
-.contact-hover:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--hover-btn);
 }
 
@@ -101,7 +102,7 @@ address {
 можна і без лінк
 */
 
-.contact {
+.contact-link {
     /* font-weight: 400;   *** непотрібно - йде за замовчуванням*/
   font-size: 16px;
   line-height: 1.5;
